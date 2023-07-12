@@ -2,6 +2,8 @@
 
 # Chisel Demo
 
+ * To enable the visualization of the GDS, create GitHub pages and allow an Action to push to the pages
+
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
