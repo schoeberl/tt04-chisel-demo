@@ -11,7 +11,7 @@ project:
     - seven_segment_top.v
     - SevenSegmentSeconds.v
 #  top_module:  "tt_um_seven_segment_seconds"      # put the name of your top module here, make it unique by prepending your github username
-  top_module:  "seven_segment_top"      # put the name of your top module here, make it unique by prepending your github username
+  top_module:  "tt_um_seven_segment_top"      # put the name of your top module here, make it unique by prepending your github username
 
 # How many tiles your design occupies? A single tile is about 167x108 uM.
 # Before changing this, please reach out to us on discord to discuss your design.
