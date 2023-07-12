@@ -13,7 +13,7 @@ module tt_um_seven_segment_top (
 
     wire reset = !rst_n;
     // Just wrap the Chisel generated Verilog
-    SevenSeg SevenSegmentSeconds(.clock(clk),
+    SevenSegmentSeconds SevenSegmentSeconds(.clock(clk),
       .reset(reset),
       .io_switches(ui_in),
       .io_sevenSeg(uo_out),
