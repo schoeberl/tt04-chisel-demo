@@ -3,6 +3,7 @@
 # Chisel Demo
 
  * To enable the visualization of the GDS, create GitHub pages and allow an Action to push to the pages
+ * See https://schoeberl.github.io/tt04-chisel-demo/
 
 # What is Tiny Tapeout?
 
