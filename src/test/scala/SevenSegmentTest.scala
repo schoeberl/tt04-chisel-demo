@@ -5,7 +5,7 @@ import chisel3.util.HasBlackBoxPath
 
 import scala.collection.immutable.Seq
 
-// Should hav a shared abstract class for the testing
+// Should have a shared abstract class for the testing
 class SevenSegmentWrapper extends SevenSegmentSeconds {
   val bb = Module(new tt_um_seven_segment_top)
 
