@@ -56,7 +56,7 @@ class SevenSegmentTest extends AnyFlatSpec with ChiselScalatestTester {
     SevenSegmentSeconds.main(Array(""))
     emitVerilog(new SevenSegmentSeconds(10), Array("--target-dir", "src"))
 
-    test(new SevenSegmentWrapper()).withAnnotations(Seq(VerilatorBackendAnnotation)) {
+    test(new SevenSegmentWrapper()).withAnnotations(Seq(IcarusBackendAnnotation)) {
       dut => {
         for (i <- 0 until 10) {
           dut.clock.step(10)
